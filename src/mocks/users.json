@@ -1,0 +1,127 @@
+{
+  "treePosts": [
+    {
+      "id": "1",
+      "parentId": null,
+      "content": "Lorem ipsum dolor sit amet",
+      "publishDate": "2020-05-13T07:45:08",
+      "modifiedDate": "2020-08-12T20:26:36Z",
+      "isExpanded": true,
+      "createdBy": {
+        "user": {
+          "firstName": "Sarah",
+          "lastName": "Johnson"
+        }
+      },
+      "replies": [
+        {
+          "id": "2",
+          "parentId": "1",
+          "content": "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "publishDate": "2020-05-13T07:45:08",
+          "modifiedDate": "2020-08-12T20:26:36Z",
+          "isExpanded": true,
+          "createdBy": {
+            "user": {
+              "firstName": "Fred",
+              "lastName": "Ryan"
+            }
+          },
+          "replies": [
+            {
+              "id": "3",
+              "parentId": "2",
+              "content": "Velit laoreet id donec ultrices. Arcu cursus vitae congue mauris rhoncus.",
+              "publishDate": "2020-05-13T07:45:08",
+              "modifiedDate": "2020-08-12T20:26:36Z",
+              "isExpanded": true,
+              "createdBy": {
+                "user": {
+                  "firstName": "Matthew",
+                  "lastName": "Gates"
+                }
+              },
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "parentId": null,
+      "content": "Mattis rhoncus urna neque viverra justo nec ultrices dui sapien.",
+      "publishDate": "2020-05-13T07:45:08",
+      "modifiedDate": "2020-08-12T20:26:36Z",
+      "isExpanded": true,
+      "createdBy": {
+        "user": {
+          "firstName": "Owen",
+          "lastName": "Wade"
+        }
+      },
+      "replies": [
+        {
+          "id": "5",
+          "parentId": "4",
+          "content": "Consectetur lorem donec massa sapien. In hendrerit gravida rutrum quisque non tellus orci ac auctor.",
+          "publishDate": "2020-05-13T07:45:08",
+          "modifiedDate": "2020-08-12T20:26:36Z",
+          "isExpanded": true,
+          "createdBy": {
+            "user": {
+              "firstName": "Ann",
+              "lastName": "Bates"
+            }
+          },
+          "replies": []
+        },
+        {
+          "id": "6",
+          "parentId": "4",
+          "content": "Lorem ipsum dolor sit amet, hendrerit gravida rutrum quisque",
+          "publishDate": "2020-05-13T07:45:08",
+          "modifiedDate": "2020-08-12T20:26:36Z",
+          "isExpanded": true,
+          "createdBy": {
+            "user": {
+              "firstName": "Fred",
+              "lastName": "Ryan"
+            }
+          },
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "parentId": null,
+      "content": "incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, ",
+      "publishDate": "2020-05-13T07:45:08",
+      "modifiedDate": "2020-08-12T20:26:36Z",
+      "isExpanded": true,
+      "createdBy": {
+        "user": {
+          "firstName": "Emily",
+          "lastName": "Smith"
+        }
+      },
+      "replies": []
+    },
+    {
+      "id": "8",
+      "parentId": null,
+      "content": "consectetur adipiscing elit lorem ipsum dolor sit amet",
+      "publishDate": "2020-05-13T07:45:08",
+      "modifiedDate": "2020-08-12T20:26:36Z",
+      "isExpanded": true,
+      "createdBy": {
+        "user": {
+          "firstName": "Michelle",
+          "lastName": "Taylor"
+        }
+      },
+      "replies": []
+    }
+  ]
+}

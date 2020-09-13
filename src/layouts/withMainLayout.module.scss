@@ -1,0 +1,9 @@
+.mainLayoutWrapper {
+  @apply p-6 h-screen;
+
+  .mainSection {
+    @apply overflow-y-auto;
+    min-height: 80vh;
+    max-height: 80vh;
+  }
+}

@@ -1,0 +1,22 @@
+.postSidebar {
+  @apply bg-gray-100 border border-solid border-gray-400 p-6 text-center uppercase mx-4 w-3/12;
+
+  :global(.MuiTreeItem-label) {
+    @apply text-left;
+  }
+  :global(.MuiCollapse-wrapperInner) {
+    @apply text-left pl-2;
+  }
+
+  :global(.MuiTreeItem-content) {
+    @apply p-2 text-left border border-solid border-gray-500 rounded mb-4;
+  }
+
+  :global(.MuiTreeItem-label) {
+    @apply bg-transparent #{!important};
+  }
+
+  .collapsibleButton {
+    @apply mb-4 outline-none;
+  }
+}
