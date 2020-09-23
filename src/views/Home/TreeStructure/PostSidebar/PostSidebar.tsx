@@ -19,6 +19,7 @@ function PostSidebar() {
 
 	return (
 		<div className={styles.postSidebar}>
+			<span className='component-index'>Component 1</span>
 			<TreeView
 				expanded={getDefaultExpanded}
 				defaultCollapseIcon={<ExpandMoreIcon />}

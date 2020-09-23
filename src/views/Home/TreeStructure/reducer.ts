@@ -15,23 +15,23 @@ import {
 const reducer: Reducer<ITreeDataContext, TreeStructureActions> = produce(
 	(state: ITreeDataContext, action: TreeStructureActions) => {
 		switch (action.type) {
-		case LOAD_TREE:
-			state.users = action.payload.posts;
-			state.loading = false;
-			break;
+			case LOAD_TREE:
+				state.users = action.payload.posts;
+				state.loading = false;
+				break;
 
-		case EXPAND_COLLAPSE_ONE:
-			state.users.forEach(currentNode => {
-				if (currentNode.id === action.payload.nodeId) {
-					currentNode.isExpanded = !currentNode.isExpanded;
-				}
-			});
-			break;
+			case EXPAND_COLLAPSE_ONE:
+				state.users.forEach(currentNode => {
+					if (currentNode.id === action.payload.nodeId) {
+						currentNode.isExpanded = !currentNode.isExpanded;
+					}
+				});
+				break;
 
-		case EXPAND_COLLAPSE_ALL:
-			state.loading = true;
-			break;
-		}
+			case EXPAND_COLLAPSE_ALL:
+				state.loading = true;
+				break;
+			}
 	}
 );
 

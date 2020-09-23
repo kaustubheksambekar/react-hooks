@@ -4,4 +4,8 @@
   :global(.MuiTreeView-root > .childNodes) {
     @apply hidden;
   }
+  :global(.component-index) {
+    @apply text-left inline-block mb-6 bg-gray-400 p-4 rounded;
+  }
 }
+

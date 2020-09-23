@@ -18,6 +18,7 @@ function PostContent() {
 
 	return (
 		<div className={styles.postContent}>
+			<span className='component-index'>Component 2</span>
 			<TreeView
 				expanded={getDefaultExpanded}
 				defaultCollapseIcon={<ExpandMoreIcon />}
